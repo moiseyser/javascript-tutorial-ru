@@ -179,7 +179,7 @@ var person = {};
 person.age = 25;
 var key = 'age';
 
-alert( person[key] ); // выведет person['age']
+alert( person[key] ); // выведет 25
 ```
 
 Вообще, если имя свойства хранится в переменной (`var key = "age"`), то единственный способ к нему обратиться -- это квадратные скобки `person[key]`.
